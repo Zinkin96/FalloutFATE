@@ -1,7 +1,7 @@
 ---
-title: Fallout Wiki
+title:
 ---
-# Разделы
+# Основные разделы
 
-- [[traits|Особенности]]
-- [[chems|Препараты]]
+- [[CharacterCreation|Создание персонажа]]
+- [[CoreMechanics|Базовые правила]]
