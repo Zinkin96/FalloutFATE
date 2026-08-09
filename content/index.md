@@ -4,4 +4,4 @@ title:
 # Основные разделы
 
 - [[CharacterCreation|Создание персонажа]]
-- [[CoreMechanics|Базовые правила]]
+- [[CoreMechanics/index|Базовые правила]]

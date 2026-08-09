@@ -3,6 +3,7 @@ title: Агрессивные действия
 type: rule
 tags:
   - combat
+  - core
 ---
 # Агрессивные действия
 
