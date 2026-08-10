@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ru-RU
   baseUrl: quartz.jzhao.xyz
   ignorePatterns:
     - private
@@ -68,7 +68,7 @@ plugins:
     enabled: true
     order: 40
   - source: "@quartz-community/table-of-contents"
-    enabled: false
+    enabled: true
     order: 50
     layout:
       position: right
@@ -274,7 +274,9 @@ layout:
       exclude:
         - reader-mode
       positions:
-        right: []
+        right:
+        - TableOfContents
+        - Backlinks
     tag:
       exclude:
         - reader-mode
