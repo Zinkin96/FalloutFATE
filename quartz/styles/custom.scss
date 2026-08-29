@@ -1,3 +1,25 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  border: 1px solid var(--lightgray); 
+}
+
+th {
+  background-color: var(--highlight);
+  font-weight: 600;
+  border-bottom: 2px solid var(--lightgray);
+}
+
+th:not(:last-child), 
+td:not(:last-child) {
+  border-right: 1px solid var(--lightgray); 
+}
+
+tr:last-child td {
+  border-bottom: none;
+}

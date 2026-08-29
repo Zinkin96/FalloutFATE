@@ -6,7 +6,6 @@ tags:
   - consumable
   - grenade
   - explosive
-  - anti_synthetic
 ---
 # Импульсная граната
 
